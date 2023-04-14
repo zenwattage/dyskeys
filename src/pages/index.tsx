@@ -13,6 +13,8 @@ import LetterManipulator from '@/components/LetterManipulator';
 // const letterA = '/images/a_1_lowercase_up.jpg';
 // const aaa = '/images/asvg.svg';
 import CustomAlphabet from '@/components/CustomAlphabet';
+import AlphabetsList from '@/components/AlphabetsList';
+import AlphabetsContainer from '@/components/AlphabetsContainer';
 // import AlphabetCreator from '@/components/AlphabetCreator';
 
 export default function Home() {
@@ -100,6 +102,7 @@ export default function Home() {
             </button>
           </div>
           <CustomAlphabet variations={chosenVariations} />
+          <AlphabetsContainer />
         </div>
       </main>
     </>

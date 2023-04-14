@@ -21,7 +21,7 @@ const LetterWrapper: React.FC<Props> = ({
       mirror ? -1 : 1
     })`,
     display: 'inline-block',
-    fontSize: '100px',
+    fontSize: '50px',
     lineHeight: 1,
   };
 
